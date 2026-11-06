@@ -4,7 +4,7 @@ A modern, responsive personal portfolio website for a BSIT student and aspiring 
 
 ## Live Portfolio
 
-Open `index.html` in a browser to view the site locally, or serve it using a simple local web server.
+Open `https://rochepadin.github.io/` in a browser to view the site/portfolio live.
 
 ## Overview
 
@@ -23,21 +23,19 @@ This portfolio highlights:
 
 - HTML5
 - CSS3
-- JavaScript
-- React
-- Vite
-- Tailwind CSS
-- ASP.NET Core
-- EF Core
-- SQL Server
-- PHP
-- XAMPP
-- Appwrite
-- EmailJS
+- JavaScript (ES6+)
+
+## Requirements
+
+- A modern web browser with HTML5, CSS3, and ES6+ JavaScript support
+- An internet connection for externally hosted fonts, icons, and the EmailJS SDK
+- No build tools, framework, or package manager are required; the site is built with static HTML, CSS, and JavaScript
+- To run a local server, use Visual Studio Code with the Live Server extension or Python 3+
 
 ## Featured Projects
 
 ### 1. Movie Browser
+
 A React + Vite movie browsing app using TMDB API and Appwrite TablesDB.
 
 - Live movie search
@@ -46,6 +44,7 @@ A React + Vite movie browsing app using TMDB API and Appwrite TablesDB.
 - Modern UI with responsive layout
 
 ### 2. Event Management System
+
 A RESTful ASP.NET Core 8 API for event registrations, ticketing, payments, and cancellations.
 
 - .NET 8 backend
@@ -54,6 +53,7 @@ A RESTful ASP.NET Core 8 API for event registrations, ticketing, payments, and c
 - AutoMapper setup
 
 ### 3. School Supplies PMPS
+
 A PHP-based school supplies inventory and pricing system.
 
 - Inventory tracking
@@ -62,6 +62,7 @@ A PHP-based school supplies inventory and pricing system.
 - Team project collaboration
 
 ### 4. Product Performance Checker
+
 A PHP-based sales and product performance tracking web app.
 
 - Daily and weekly product monitoring
@@ -96,12 +97,20 @@ My Portfolio/
 
 ## Getting Started
 
-### Option 1: Open directly
+### Option 1: View the live website
+
+Open [https://rochepadin.github.io/](https://rochepadin.github.io/) in a modern browser.
+
+### Option 2: Open with Live Server
+
+Open the project folder in Visual Studio Code, install the Live Server extension if needed, then right-click `index.html` and select **Open with Live Server**.
+
+### Option 3: Open directly
 
 1. Navigate to the project folder.
 2. Open `index.html` in any modern browser.
 
-### Option 2: Run with a local web server
+### Option 4: Run with Python's local web server
 
 ```bash
 python -m http.server 8000
